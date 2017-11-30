@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using SetScreenGamma.Properties;
@@ -32,7 +31,7 @@ namespace SetScreenGamma
 
         private static void SetGamma(int gamma)
         {
-            if (gamma <= 256 && gamma >= 1)
+            if (gamma <= 255 && gamma >= 0)
             {
                 var ramp = new RAMP
                 {
@@ -40,7 +39,7 @@ namespace SetScreenGamma
                     Green = new ushort[256],
                     Blue = new ushort[256]
                 };
-                for (var i = 1; i < 256; i++)
+                for (var i = 0; i < 256; ++i)
                 {
                     var iArrayValue = i * (gamma + 128);
 

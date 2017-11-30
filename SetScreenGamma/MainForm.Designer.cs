@@ -41,8 +41,7 @@
             this.trackBar1.BackColor = System.Drawing.Color.Lime;
             this.trackBar1.Dock = System.Windows.Forms.DockStyle.Top;
             this.trackBar1.Location = new System.Drawing.Point(0, 0);
-            this.trackBar1.Maximum = 256;
-            this.trackBar1.Minimum = 1;
+            this.trackBar1.Maximum = 255;
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(365, 25);
             this.trackBar1.TabIndex = 1;
@@ -57,12 +56,7 @@
             this.numericUpDown1.Location = new System.Drawing.Point(0, 25);
             this.numericUpDown1.Margin = new System.Windows.Forms.Padding(0);
             this.numericUpDown1.Maximum = new decimal(new int[] {
-            256,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            1,
+            255,
             0,
             0,
             0});
