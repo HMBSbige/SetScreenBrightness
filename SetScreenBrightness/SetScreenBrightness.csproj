@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{729409DB-F048-48E6-9324-84DB6D5A4747}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SetScreenGamma</RootNamespace>
-    <AssemblyName>SetScreenGamma</AssemblyName>
+    <RootNamespace>SetScreenBrightness</RootNamespace>
+    <AssemblyName>SetScreenBrightness</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

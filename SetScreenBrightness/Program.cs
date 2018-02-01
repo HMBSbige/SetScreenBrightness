@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace SetScreenGamma
+namespace SetScreenBrightness
 {
     static class Program
     {

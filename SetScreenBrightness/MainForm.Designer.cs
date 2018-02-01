@@ -1,4 +1,4 @@
-﻿namespace SetScreenGamma
+﻿namespace SetScreenBrightness
 {
     partial class MainForm
     {

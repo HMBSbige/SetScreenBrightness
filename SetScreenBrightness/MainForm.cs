@@ -2,9 +2,9 @@
 using System.Management;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using SetScreenGamma.Properties;
+using SetScreenBrightness.Properties;
 
-namespace SetScreenGamma
+namespace SetScreenBrightness
 {
     public partial class MainForm : Form
     {
@@ -268,7 +268,7 @@ namespace SetScreenGamma
             }
             catch (Exception)
             {
-                MessageBox.Show(@"你的系统不支持亮度控制，可能没有管理员权限23333",@"提示",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                MessageBox.Show(@"你的系统不支持亮度控制或者没用管理员权限运行23333",@"提示",MessageBoxButtons.OK,MessageBoxIcon.Information);
             }
 
             return BrightnessLevels;
